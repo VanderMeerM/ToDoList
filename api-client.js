@@ -19,6 +19,7 @@
                   const res = await fetch(apiRemUrl, { method: 'DELETE',                     
                        })
                        console.log('Task removed succesfully'); 
+                   location.reload(true);
                        }
                    catch (error) {
                    console.log(error)}  
@@ -58,6 +59,7 @@ getToDoList();
                 }) 
             })
             console.log (`Task added succesfully.`);
+              location.reload(true);
         }
         catch (error) {
             console.log(error)}   
