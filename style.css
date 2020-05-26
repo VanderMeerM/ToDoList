@@ -1,0 +1,74 @@
+
+body {
+    background-color: black;
+    margin-left: 30px;
+}
+
+body button {
+    padding: 10px;
+    background-color: #1240AB;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+body input {
+    padding-left: 10px;
+    height: 30px;
+    width: 400px;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 50px;
+    color: lightgreen;
+    font-style: italic;
+    font-family: 'Dancing Script', bold;
+    font-size: 50px;
+}
+
+h2, main {
+   text-align: center;  
+   margin-bottom: 10px;  
+}
+
+input[type=checkbox]:checked + label {
+   text-decoration: line-through;
+    font-style: italic;
+  } 
+  
+#items {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 0 auto; 
+    width: 500px; 
+    border: solid 1px lightgray;
+    line-height: 1cm;
+    margin-top: 20px;
+    
+}
+
+p {
+    border-bottom: solid 1px lightgray;
+    margin: 0;
+}
+
+#checkbox {
+    width: 30px;
+    height: 15px;
+}
+
+img {
+    float: right;
+    padding-right:10px;
+    padding-top: 5px;
+      
+}
+
+
