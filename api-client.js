@@ -2,7 +2,11 @@
  const apiUrl = `https://wincacademydatabase.firebaseio.com/marcel/tasks.json`;
 
  const getToDoList = async function () { 
+<<<<<<< HEAD
        
+=======
+   
+>>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
     try {
     const res =  await fetch(apiUrl, { method: 'GET' });
         const data = await res.json();
@@ -18,12 +22,18 @@
                  try { 
                   const res = await fetch(apiRemUrl, { method: 'DELETE',                     
                        })
+<<<<<<< HEAD
                       location.reload(true);
+=======
+                       console.log('Task removed succesfully'); 
+                    location.reload(true);
+>>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
                        }
                    catch (error) {
                    console.log(error)}  
        
                };
+<<<<<<< HEAD
 
               
             document.getElementById('items');
@@ -48,6 +58,25 @@
         catch (error) {
             console.log(error)}   
                    
+=======
+            const list = document.getElementById('items');
+            const newLi = document.createElement("li");
+            const trashBin = document.createElement("img");
+            trashBin.src = 'trash-delete-icon.png';
+            trashBin.addEventListener ("click", removeTask
+            )
+            newLi.innerHTML= `${task.description} &nbsp; `;
+            items.appendChild(newLi);
+            newLi.append(trashBin);
+
+        })
+                           
+            }
+        catch (error) {
+            console.log(error)}   
+          
+           
+>>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
         }
        
 
@@ -64,7 +93,12 @@ getToDoList();
                  done: false
                 }) 
             })
+<<<<<<< HEAD
            location.reload(true);
+=======
+            console.log (`Task added succesfully.`);
+              location.reload(true);
+>>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
         }
         catch (error) {
             console.log(error)}   
@@ -76,7 +110,23 @@ getToDoList();
        
              
                 
+<<<<<<< HEAD
               
+=======
+        /* 
+        Poging voor inbouwen checkbox ipv listitems 
+        (niet gelukt daar tekst niet zichtbaar wordt; een oplossing hoor ik eventueel graag :))
+            .getElementsByTagName('li');
+            //checkBox.setAttribute("type", "checkbox");
+            //const label = document.createElement('label');
+            //checkBox.name = 'listitem'
+            //checkBox.id = 'listitem'
+            //c/heckBox.value = 'test'
+            //label.htmlFor = checkBox.id;
+        */
+        
+   
+>>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
  
 
     
