@@ -1,29 +1,14 @@
 
-<<<<<<< HEAD
 body {
     background-color: black;
     margin-left: 30px;
 }
 
-=======
-#items {
-    width: 50%;
-    border: solid 1px lightgray;
-    line-height: 1cm;
-    padding: 20px;
-    padding-bottom: 10px;
-}
-
-body {
-    margin-left: 30px;
-}
->>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
 body button {
     padding: 10px;
     background-color: #1240AB;
     color: white;
     font-weight: bold;
-<<<<<<< HEAD
     margin-left: 10px;
     border-radius: 20px;
 }
@@ -52,17 +37,13 @@ h2, main {
    margin-bottom: 10px;  
 }
 
-input[type=checkbox]:checked + label {
-   text-decoration: line-through;
-    font-style: italic;
-  } 
-  
+ 
 #items {
     color: white;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     margin: 0 auto; 
-    width: 500px; 
+    width: 520px; 
     border: solid 1px lightgray;
     line-height: 1cm;
     margin-top: 20px;
@@ -87,15 +68,3 @@ img {
 }
 
 
-=======
-    border-radius: 20px;
-
-;
-}
-
-body input {
-    height: 30px;
-    width: 300px;
-}
-
->>>>>>> 66ebcbdd750a6c4eac056cf058335c8977f00956
